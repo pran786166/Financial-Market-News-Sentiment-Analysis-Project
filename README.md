@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 
 3. Import Data
-df = pd.read_csv('https://github.com/YBI-Foundation/Dataset/raw/main/Financial%20Market%20News.csv', encoding='ISO-8859-1')
+in csv format
 
 5. Describe Data
 df.info()
@@ -47,7 +47,8 @@ The model can now predict whether new financial news headlines are positive or n
 This project uses a bag-of-words approach to represent text data from financial news headlines, and a Random Forest Classifier to predict sentiment. The accuracy of the model provides insights into how news impacts market sentiment, which is crucial for investors and analysts alike.
 
 Dataset
-The dataset used in this project is available at the following link: https://github.com/YBI-Foundation/Dataset/raw/main/Financial%20Market%20News.csv
+The dataset used in this project is available at the following link: 
+https://github.com/YBI-Foundation/Dataset/raw/main/Financial%20Market%20News.csv
 ________________________________________
 Conclusion
 By training the model on historical financial news data, we provide a framework for sentiment analysis that helps stakeholders make data-driven decisions in financial markets. The model's predictions can be integrated into trading algorithms, investment strategies, or risk assessments.
